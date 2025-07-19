@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "get-papers-list-subhi"
+version = "0.1.0"
+description = "CLI tool to fetch PubMed papers with non-academic authors"
+authors = ["Subhi Maurya <shubhimaurya812@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "get_papers_list" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.0.0"
+
+[tool.poetry.scripts]
+get-papers-list = "get_papers_list.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
