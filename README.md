@@ -20,3 +20,16 @@ poetry run get-papers-list "covid vaccine" -d
 ## Notes
 
 I assume non-academic affiliations are those **not** containing words like "university", "institute", "lab", "hospital", etc.
+
+## 📦 Published on TestPyPI
+
+👉 [View on TestPyPI](https://test.pypi.org/project/get-papers-list-subhi/)
+
+---
+
+## 🚀 Installation
+
+You can install this tool directly from TestPyPI:
+
+```bash
+pip install --index-url https://test.pypi.org/simple get-papers-list-subhi
